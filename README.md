@@ -2,7 +2,7 @@
 
 A Wordpress Plugin to simply add external link indicators to external links.
 
-=== A Simple External Link Indicator ===
+### A Simple External Link Indicator
 
 Contributors: avanrossum
 
@@ -21,10 +21,10 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 A simple plugin to add external indicators to external links... simply.
 
-== Description ==
+## Description
 Introducing 'A Simple External Link Indicator' – the straightforward WordPress plugin that’s all about clarity and user experience. This handy tool effortlessly marks out external links on your site, providing a clear indicator without any fuss.
 
-Features:
+## Features:
 
 - Clear Visual Cues: Seamlessly integrates icons next to external links, giving your users the heads-up they need before they click.
 - Uses built in dashicons: No extra libraries to load.
@@ -37,35 +37,41 @@ With 'A Simple External Link Indicator', you’re not just enhancing your websit
 
 Please note that A Simple External Link Indicator does not add icons to images. If you would like to see this feature added, please let me know here: [contact nahfts](https://nahfts.com/contact-nahfts/)
 
-== Installation ==
+## Installation 
 
 1. Upload [`A Simple External Link Indicator`](https://github.com/avanrossum/a-simple-external-link-indicator/archive/refs/heads/main.zip) to the `/wp-content/plugins/` directory
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
-== Frequently Asked Questions ==
-= What does 'A Simple External Link Indicator' do? =
+
+## Frequently Asked Questions 
+
+### What does 'A Simple External Link Indicator' do?
+
 It adds a small icon next to any external links on your WordPress site, letting visitors know which links will take them to a different website.
 
-= Is this plugin easy to use? =
+### Is this plugin easy to use?
+
 Absolutely! It's designed with simplicity in mind. Installation and configuration can be completed in just a few clicks.
 
-= Can I choose different icons for external links? =
+### Can I choose different icons for external links?
+
 Yes, the plugin provides options to choose from various icons to best fit your site’s design.
 
-= Is it possible to adjust the size of the icons? =
+### Is it possible to adjust the size of the icons?
+
 Yes, you can set the size of the icons relative to your text, ensuring they integrate smoothly with your site's layout.
 
-= Are there any links that won't show the indicator? =
-A: You have the option to exclude certain links using CSS selectors, giving you full control over which links display the external link indicator.
+### Are there any links that won't show the indicator?
 
-= Where can I get support if I need help with the plugin? =
-A: Support is available through the WordPress plugin repository or you can reach out to the developer directly through the contact information provided within the plugin's settings.
+You have the option to exclude certain links using CSS selectors, giving you full control over which links display the external link indicator.
 
-== Screenshots ==
-1. Admin Interface
-2. Link Example
+### Where can I get support if I need help with the plugin?
 
-== Changelog ==
-= v1.0.4 =
+Support is available through the WordPress plugin repository or you can reach out to the developer directly through the contact information provided within the plugin's settings.
+
+
+## Changelog
+
+### v1.0.4
 
 * Initial release
