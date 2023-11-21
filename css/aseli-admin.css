@@ -1,0 +1,201 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Special+Elite&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Source+Sans+3:wght@200;300;400;500&display=swap');
+
+.aseli-container {
+    font-family: "Source Sans 3";
+    border: 4px solid black;
+
+
+}
+
+.aseli-inner-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aseli-right,
+.aseli-left {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.aseli-left{
+ width: 50%;
+ max-width: 400px;
+ margin-right: 40px;
+}
+
+.aseli-right{
+    flex: 1;
+}
+
+
+#dashicons-selector,
+#font-size-selector,
+.aseli-settings-field
+{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 1px;
+    max-width: 300px;
+    margin-bottom: 20px;
+
+}
+
+#aseli_excluded_selectors{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+#font-size-selector select {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.aseli-instructions {
+    display: flex;
+    width: 100%;
+}
+
+.aseli-instructions h3 {
+
+    margin: 0 5px !important;
+}
+
+.dashicons-selector-item {
+    display: flex;
+    padding: 5px;
+    background-color: #74C044;
+    border-radius: 1px;
+
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.dashicons-selector-item.selected {
+
+    background-color: #FCEE2C;
+}
+
+.aseli-form .button {
+    background: #ED2891;
+
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.aseli-admin-hero {
+
+    background: #ED2891;
+
+    color: #fff;
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.aseli-admin-hero h1,
+.aseli-admin-hero h4 {
+    color: #fff;
+
+}
+
+.aseli-admin-hero h1 {
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.aseli-container h2 {
+    font-weight: 600;
+    font-family: 'Merriweather';
+    font-size: 40px;
+
+}
+
+.aseli-container h4 {
+    margin-top: 5px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+@media (max-width: 800px) {
+    .aseli-inner-container {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .aseli-right,
+    .aseli-left {
+        width: 100%;
+    }
+
+    .aseli-admin-hero h1 {
+        font-family: 'Merriweather';
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+
+    .aseli-container h2 {
+        font-weight: 600;
+        font-family: 'Merriweather';
+        font-size: 30px;
+
+    }
+
+    .thanks-image {
+        flex-direction: column;
+    }
+}
+
+.thanks-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.thanks-image img {
+    width: 150px;
+}
+
+.aseli-preview span {
+    text-decoration: none;
+}
+
+.thanks-credits {
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.thanks-credits-content {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
