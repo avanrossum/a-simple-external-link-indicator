@@ -14,8 +14,11 @@ Stable tag: 6.4
 
 License: GPLv3
 
+Requires PHP: 5.3
+
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 A simple plugin to add external indicators to external links... simply.
+
 == Description ==
 Introducing 'A Simple External Link Indicator' – the straightforward WordPress plugin that’s all about clarity and user experience. This handy tool effortlessly marks out external links on your site, providing a clear indicator without any fuss.
 
@@ -36,7 +39,9 @@ Please note that A Simple External Link Indicator does not add icons to images. 
 1. Upload [`A Simple External Link Indicator`](https://github.com/avanrossum/a-simple-external-link-indicator/archive/refs/heads/main.zip) to the `/wp-content/plugins/` directory
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
 == Frequently Asked Questions ==
+
 = What does 'A Simple External Link Indicator' do? =
 It adds a small icon next to any external links on your WordPress site, letting visitors know which links will take them to a different website.
 
@@ -50,14 +55,18 @@ Yes, the plugin provides options to choose from various icons to best fit your s
 Yes, you can set the size of the icons relative to your text, ensuring they integrate smoothly with your site's layout.
 
 = Are there any links that won't show the indicator? =
-A: You have the option to exclude certain links using CSS selectors, giving you full control over which links display the external link indicator.
+You have the option to exclude certain links using CSS selectors, giving you full control over which links display the external link indicator.
 
 = Where can I get support if I need help with the plugin? =
-A: Support is available through the WordPress plugin repository or you can reach out to the developer directly through the contact information provided within the plugin's settings.
+Support is available through the WordPress plugin repository or you can reach out to the developer directly through the contact information provided within the plugin's settings.
+
 == Screenshots ==
+
 1. Admin Interface
 2. Link Example
+
 == Changelog ==
+
 = v1.0.4 =
 
 * Initial release
